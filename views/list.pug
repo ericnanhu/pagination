@@ -1,0 +1,23 @@
+//- ul 
+//-     each post in posts
+//-         li 
+//-             a(href="#") #{post.title}
+//-     else
+//-         li No post found.
+
+//- if prev
+//-     a(href=`/pages/${prev}`) Prev 
+
+//- if next
+//-     a(href=`/pages/${next}`) Next
+
+button(id="loadMore" data-cursor=`${cursor}`) Load More
+
+ul(id="postList")
+    each post in posts
+        li 
+            a(href="#") #{post.title}
+    else
+        li No post found.
+
+script(src="/statics/js/app.js") 

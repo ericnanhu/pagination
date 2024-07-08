@@ -1,0 +1,22 @@
+{
+  "name": "pagination",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "express": "^4.19.2",
+    "prisma": "^5.16.1",
+    "pug": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  }
+}
